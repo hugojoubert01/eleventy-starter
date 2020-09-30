@@ -11,6 +11,9 @@ module.exports = {
       'primary-font': ['helvetica'],
     },
     extend: {
+      screens: {
+        'portrait': {'raw': '(orientation: portrait)'},
+      }
       colors: {
         'ferrari-red': '#c4151c',
       }
