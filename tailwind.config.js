@@ -7,6 +7,9 @@ module.exports = {
     enabled: false,
   },
   theme: {
+    fontFamily: {
+      'primary-font': ['helvetica'],
+    },
     extend: {
       colors: {
         'ferrari-red': '#c4151c',
