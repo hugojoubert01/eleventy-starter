@@ -7,7 +7,11 @@ module.exports = {
     enabled: false,
   },
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'ferrari-red': '#c4151c',
+      }
+    },
   },
   variants: {},
   plugins: [],
